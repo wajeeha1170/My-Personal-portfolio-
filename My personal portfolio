@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wajeeha Athar | Developer & Thinker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(-45deg, #1d3557, #457b9d, #a8dadc, #f1faee);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 50px 20px;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    nav .button {
+      margin: 0 8px;
+      background-color: #6a0572;
+    }
+
+    .section {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 35px;
+      background-color: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    h1 { font-size: 2.8em; margin-bottom: 10px; }
+    h2 { font-size: 2em; margin-bottom: 15px; }
+    h3 { font-size: 1.5em; margin: 20px 0 10px; }
+    p, li { font-size: 1.1em; line-height: 1.6; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 8px 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      margin-top: 20px;
+      background-color: #00b894;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #00897b;
+    }
+
+    .button.secondary {
+      background-color: #6a0572;
+    }
+
+    .button.secondary:hover {
+      background-color: #4a025f;
+    }
+
+    .contact-info {
+      font-size: 1.1em;
+      margin-top: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #eee;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2em; }
+      h2 { font-size: 1.5em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+
+    <!-- Navigation -->
+    <nav>
+      <a class="button" href="#about">About</a>
+      <a class="button" href="#projects">Projects</a>
+      <a class="button" href="#skills">Skills</a>
+      <a class="button" href="#math">Math</a>
+      <a class="button" href="#education">Education</a>
+      <a class="button" href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero -->
+    <section class="section">
+      <h1>Wajeeha Athar</h1>
+      <p>Developer | Mathematician | Digital Storyteller</p>
+      <a class="button" href="https://www.linkedin.com/in/wajeeha-athar" target="_blank">🔗 LinkedIn</a>
+      <br/>
+      <a class="button secondary" href="Wajeeha_Athar_CV.pdf" download>📄 Download My CV</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Wajeeha—a frontend developer with a deep interest in visual mathematics and UI design.
+        I merge logic with creativity, building interfaces that are both functional and beautiful.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Graph Theory Playground</strong> – A tool for exploring graph traversal with live animations.<br>
+          <em>Tech:</em> JavaScript, HTML5 Canvas, D3<br>
+          <a href="https://github.com/yourusername/graph-playground" target="_blank" style="color:#fff;">GitHub</a>
+        </li>
+        <li>
+          <strong>Portfolio 2.0</strong> – A fresh, animated portfolio using modern CSS techniques.<br>
+          <em>Tech:</em> HTML, CSS Grid, JS<br>
+          <a href="https://github.com/yourusername/portfolio-v2" target="_blank" style="color:#fff;">GitHub</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li><i class="fab fa-html5"></i> HTML5 / CSS3</li>
+        <li><i class="fab fa-js"></i> JavaScript (ES6+)</li>
+        <li><i class="fas fa-chart-line"></i> Data Visualization (D3.js)</li>
+        <li><i class="fas fa-brain"></i> Math Modeling</li>
+        <li><i class="fas fa-pencil-ruler"></i> UI/UX Wireframing</li>
+        <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+      </ul>
